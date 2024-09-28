@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  /* background-color: aqua; */
+  background-image: url(/asset/bg.jpg);
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img {
+  width: 200px;
+  height: 60px;
+}
+
+.buttons {
+  margin-right: 10px;
+}
+
+.buttons button:first-child {
+  width: 100px;
+  height: 25px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.buttons button:last-child {
+  width: 70px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.content {
+  width: 100%;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h1 {
+  color: aliceblue;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.content h3 {
+  color: white;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.content h4 {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.email input {
+  width: 250px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  opacity: 0.6;
+  color: black;
+}
+
+.email button {
+  width: 150px;
+  height: 40px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.main2 {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  border: 5px solid gray;
+}
+
+.text-section {
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-section h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.text-section p {
+  color: white;
+  font-size: 20px;
+  margin-inline: 40px;
+  margin-top: 10px;
+}
+
+.img-section {
+  background-color: black;
+  width: 50%;
+  height: 100%;
+}
+
+.img-section img {
+  width: 100%;
+  height: 100%;
+}
+.img-section video {
+  height: 220px;
+  width: 30vw;
+  position: relative;
+  bottom: 322px;
+  left: 150px;
+}
+
+.main3 {
+  height: 400px;
+  width: 100%;
+  border: 5px solid gray;
+  display: flex;
+}
+
+.img-download {
+  background-color: black;
+  height: 100%;
+  width: 50%;
+}
+
+.img-download img {
+  height: 100%;
+  height: 100%;
+  margin-left: 30%;
+}
+
+.text-download {
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-download h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.text-download p {
+  color: white;
+  font-size: 20px;
+  margin-right: 35%;
+  margin-top: 10px;
+}
+
+.main4 {
+  background-color: black;
+  height: 400px;
+  width: 100%;
+  border: 5px solid gray;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.main-text h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.main-text p {
+  margin-top: 20px;
+  color: white;
+  /* text-align: center; */
+  font-size: 30px;
+}
+
+.section-faq {
+  height: 800px;
+  width: 100%;
+  background-color: black;
+  border: 5px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-faq h1 {
+    margin-top: 30px;
+  color: white;
+  font-size: 40px;
+}
+
+.section-faq p{
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.box1{
+color: white;
+height: 80px;
+width: 900px;
+background-color: grey;
+margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.box1 p{
+    font-size: 30px;
+}
+
+.box1 p:first-child{
+    margin-left: 10px;
+}
+
+.box1 p:last-child{
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.main-footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    /* margin-top: 10px; */
+    border: 5px solid gray;
+    color: white;
+}
+
+.main-footer h4{
+    margin-top: 20px;
+text-align: center;
+}
+
+.list-footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-footer ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+.list-footer ul li a{
+    color: white;
+    text-decoration: none;
+
+}
